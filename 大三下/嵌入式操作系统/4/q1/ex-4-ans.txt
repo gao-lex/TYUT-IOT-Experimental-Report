@@ -1,0 +1,13 @@
+您正在使用由高磊编写的shell脚本
+总用量 32
+drwxrwxrwx  4 gaolex gaolex 4096 Apr 25 21:18 .
+drwxr-xr-x 12 gaolex gaolex 4096 Apr 24 22:44 ..
+-rw-r--r--  1 gaolex gaolex  613 Apr 25 16:01 ex-2.md
+-rw-r--r--  1 gaolex gaolex  283 Apr 25 16:07 ex-3.md
+-rw-r--r--  1 gaolex gaolex   45 Apr 25 21:18 ex-4-ans.txt
+-rw-r--r--  1 gaolex gaolex    0 Apr 25 16:07 ex-4.md
+-rwxr-xr-x  1 gaolex gaolex   91 Apr 25 21:18 ex-4.sh
+-rw-r--r--  1 gaolex gaolex    0 Apr 25 16:07 ex-6.md
+drwxr-xr-x  3 gaolex gaolex 4096 Apr 25 14:08 image
+drwxr-xr-x  2 gaolex gaolex 4096 Apr 25 14:05 latex
+./ex-4.sh

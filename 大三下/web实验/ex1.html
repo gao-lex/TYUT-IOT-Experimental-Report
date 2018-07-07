@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>表单范例</title>    
+        <style>
+            h1 {text-align: center}
+            table{
+                margin-left:auto;
+                margin-right:auto;
+            }
+
+        </style>    
+    </head>
+    <body>
+        <h1><u>请留下个人资料</u></h1>
+        <form>
+            <table>
+                <tr>
+                    <td align="right">姓名:</td><td><input type="text" name="user-name"/></td>
+                </tr>
+                <tr>
+                    <td align="right">E-mail:</td><td><input type="text" name="user-email"/></td>
+                </tr>
+                <tr>
+                    <td align="right">电话:</td><td><input type="text" name="user-tel"/></td>
+                </tr>
+                <tr>
+                    <td align="right">性别:</td><td><input type="radio" name="user-sex" value="women"/>女<input type="radio" name="user-sex" value="men"/>男</td>
+                </tr>
+                <tr>
+                    <td align="right">年龄:</td>
+                    <td>
+                        <select name="user-age">
+                            <option value="20以下" >20以下</option>
+                            <option value="20以下" >20以下</option>
+                            <option value="40及以上" >40及以上</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">留言板:</td><td><textarea name="leave-message"></textarea></td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        您的爱好:
+                    </td>
+                    <td>
+                        <input type="checkbox" name="hobbit" value="sport">运动</br>
+                        <input type="checkbox" name="hobbit" value="reading">阅读</br>
+                        <input type="checkbox" name="hobbit" value="music">听音乐</br>
+                        <input type="checkbox" name="hobbit" value="tour">旅游</br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="提交">
+                    </td>
+                    <td>
+                        <input type="button" value="全部重写">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

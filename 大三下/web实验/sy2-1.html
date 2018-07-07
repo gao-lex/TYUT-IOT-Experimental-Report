@@ -1,0 +1,19 @@
+<html>
+
+    <head>
+        <script language="javascript">
+            var time = null;
+            function stop() {
+                clearTimeout(timer);
+            }
+            function start() {
+                var time = new Date();
+                var hours = time.getHours();
+                var minutes = time.getMinutes();
+                minutes = ((minutes<10)?"0":"")+minutes;
+                var seconds = time.getSeconds()    
+            }
+        </script>
+    </head>
+
+</html>

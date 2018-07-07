@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>
+            用户登陆
+        </title>
+        <script type="text/javascript">
+            function check(){
+                username = document.getElementById("username");
+                password = document.getElementById("password");
+                if(username.value=="" || password.value=="")
+                    alert("用户名或密码不能为空");
+            }
+
+            function g_clear(){
+                username = document.getElementById("username");
+                password = document.getElementById("password");
+                username.value=""
+                password.value="";
+            }
+        </script>
+    </head>
+    <body>
+       <p>用户登陆</p>
+       <span>请输入用户名</span><input type="text" id="username" name="username" /><br>
+       <span>请输入密码</span><input type="password" id="password" name="password" /><br>
+       <input type="button" value="提交" onclick="check();" />
+       <input type="button" value="全部重写" onclick="g_clear();" >
+    </body>
+</html>

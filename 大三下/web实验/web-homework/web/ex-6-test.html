@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>调查</title>
+</head>
+<body>
+    <h1>潜在用户网络调查</h1>
+    <form action="/ex-6-testServlet" method="post">
+        姓名：<input type="text"><br>
+        EMAIL:<input type="text"><br>
+        年纪：<input type="radio" name="age" value="0-18">小于18<input type="radio" name="age" value="18-25">18到25<input type="radio" name="age" value="26-40">26到40<input type="radio" name="age" value="40-">大于40<br>
+        编程时间：<select>
+                    <option value ="0-6">0-6个月</option>
+                    <option value ="6-12">6到12个月</option>
+                    <option value="12-">12个月以上</option>
+                </select><br>
+        使用的操作系统：<select>
+                        <option value ="Windows">Windows</option>
+                        <option value="Linux">Linux</option>
+                    </select><br>
+        使用的编程语言：<input type="checkbox" name="lang" value="C"> C
+                    <input type="checkbox" name="lang" value="C++"> C++
+                    <input type="checkbox" name="lang" value="C#"> C#
+                    <input type="checkbox" name="lang" value="PYTHON"> PYTHON
+                    <input type="checkbox" name="lang" value="Java"> Java
+                    <input type="checkbox" name="lang" value="VB"> VB
+                    <input type="checkbox" name="lang" value="DEPHI"> DEPHI
+        <br>
+        建议：<textarea></textarea><br>
+        <input type="submit">提交
+        <input type="reset">重置
+    </form>
+</body>
+</html>
